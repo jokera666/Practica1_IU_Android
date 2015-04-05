@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="combo">
+        <item name="0">Seleccionar...</item>
+        <item name="1">Бай Хуй</item>
+        <item name="2">Metallica</item>
+        <item name="3">Machine Head</item>
+        <item name="4">Prodigy</item>
+    </string-array>
+    
+</resources>

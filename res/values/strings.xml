@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Item Menu</string>
+    <string name="titulo">BIBLIOTECA DE COMPONENTES</string>
+    <string name="but1">Button</string>
+    <string name="but2">ImageView</string>
+    <string name="but3">RadioButton</string>
+    <string name="but4">CheckBox</string>
+    <string name="but5">EditText</string>
+    <string name="but6">Spinner</string>
+    <string name="but7">TextView</string>
+    <string name="but8">ProgressBar</string>
+    <string name="but9">ImageButton</string>
+    <string name="but10">Registro</string>
+    <string name="log">esto que es?</string>
+
+    <!-- Cadenas para la actividad ButtonActivity -->
+    <string name="title_activity_button">La Actividad ButtonActivity</string>
+    <string name="detalle">Detalles</string>
+    <string name="titulo1">COMPONENTE BOTÓN</string>
+    <string name="btn1">Ejemplo de botón</string>
+    <string name="info1">        La clase Button de Android nos permite 
+       	representar botones que pueden ser pulsados por el usuario 
+        para llevar a cabo alguna acción.	</string>
+
+    <!-- Cadenas para la actividad ImageView -->
+    <string name="title_activity_image_view">La Actividad ImageView</string>
+    <string name="titulo2">COMPONENTE VER IMAGEN</string>
+    <string name="info2">       La clase ImageView de Android nos permite 
+       mostrar una imagen por pantalla.	</string>
+    <string name="descimg">La imagen del Joker</string>
+
+    <!-- Cadenas para la actividad RadioButton -->
+    <string name="title_activity_radio_button">La Actividad RadioButton</string>
+    <string name="titulo3">COMPONENTE BOTONES RADIO</string>
+    <string name="info3">       La clase RadioButton de Android nos permite 
+       seleccionar unicamente una opcion.	</string>
+    <string name="H">Hombre</string>
+    <string name="M">Mujer</string>
+
+    <!-- Cadenas para la actividad CheckBox -->
+    <string name="title_activity_check_box">La Actividad CheckBox</string>
+    <string name="titulo4">COMPONENTE CHECKBOX</string>
+    <string name="info4">La clase CheckBox de Android nos permite seleccionar una o varias
+        opciones a la vez.</string>
+    <string name="opcion1">Estudiante</string>
+    <string name="opcion2">Profesor</string>
+
+    <!-- Cadenas para la actividad EditText -->
+    <string name="title_activity_edit_text">La Actividad EditText</string>
+    <string name="titulo5">COMPONENTE EDITTEXT</string>
+    <string name="info5">La clase EditText de Android nos permite introducir una cadena
+        de texto por teclado.</string>
+    <string name="hint">Escribe tu nombre</string>
+
+    <!-- Cadenas para la actividad SpinnerActivity -->
+    <string name="title_activity_spinner">La Actividad SpinnerActivity</string>
+    <string name="titulo6">COMPONENTE SELECCIÓN</string>
+    <string name="info6">        La clase Spinner de Android nos permite 
+       representar un combo de distintas selecciones de strings
+       agrupadas en una array.	</string>
+    <!-- Cadenas para la actividad TextView -->
+    <string name="title_activity_text_view">La Actividad TextView</string>
+    <string name="titulo7">COMPONENTE TEXTVIEW</string>
+    <string name="info7">La clase TextView de Android nos permite visualizar cualquier tipo de texto por pantalla.</string>
+    <string name="info71">Esto es parecido a la etiqueta &lt;label&gt; de HTML</string>
+
+    <!-- Cadenas para la actividad ProgressBar -->
+    <string name="title_activity_progress_bar">La Actividad ProgressBar</string>
+    <string name="titulo8">COMPONENTE PROGRESSBAR</string>
+    <string name="info8">La clase ProgressBar de Android nos permite visualizar al usuario 
+        que nuestra aplicacion esta ejecutando o cargando algun recurso.</string>
+
+    <!-- Cadenas para la actividad ImageButton -->
+    <string name="title_activity_image_button">La Actividad ImageButton</string>
+    <string name="titulo9">LA ACTIVIDAD IMAGEBUTTON</string>
+    <string name="info9"> La clase ImageButton de Android nos permite 
+       	representar imagenes con funcion de botones que pueden ser pulsados por el usuario 
+        para llevar a cabo alguna acción.</string>
+    <string name="descimgbut">Esta imagen es un boton.</string>
+    <string name="title_activity_registrar">Actividad Registrar</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

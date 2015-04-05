@@ -1,0 +1,382 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="Widget" />
+ 
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+ 
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@color/blue</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+ <!-- Estilos para la actividad MainActivity -->   
+    <style name="cabeceraMenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/yellow</item>
+        <item name="android:text">@string/titulo</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="botonButton">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/textView1</item>
+        <item name="android:layout_below">@+id/textView1</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:text">@string/but1</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   	<style name="botonImageView">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/Button1</item>
+        <item name="android:layout_below">@+id/Button1</item>
+        <item name="android:text">@string/but2</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   	<style name="botonRadioButton">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/Button2</item>
+        <item name="android:layout_below">@+id/Button2</item>
+        <item name="android:text">@string/but3</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   	<style name="botonCheckBox">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/Button3</item>
+        <item name="android:layout_below">@+id/Button3</item>
+        <item name="android:text">@string/but4</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   	<style name="botonEditText">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/Button4</item>
+        <item name="android:layout_below">@+id/Button4</item>
+        <item name="android:text">@string/but5</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   	<style name="botonSpinner">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/Button5</item>
+        <item name="android:layout_below">@+id/Button5</item>
+        <item name="android:text">@string/but6</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   	<style name="botonTextView">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/Button6</item>
+        <item name="android:layout_below">@+id/Button6</item>
+        <item name="android:text">@string/but7</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+       	    
+   	<style name="botonProgressBar">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/Button7</item>
+        <item name="android:layout_below">@+id/Button7</item>
+        <item name="android:text">@string/but8</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+       	    
+   	<style name="botonImageButton">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/Button8</item>
+        <item name="android:layout_below">@+id/Button8</item>
+        <item name="android:text">@string/but9</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   	<style name="botonRegistro">
+        <item name="android:layout_width">@dimen/margin_large</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignRight">@+id/textView1</item>
+        <item name="android:layout_alignTop">@+id/Button4</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_toRightOf">@+id/Button4</item>
+        <item name="android:drawableRight">@drawable/registro</item>
+        <item name="android:text">@string/but10</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/darkorange</item>
+    </style>
+    
+ <!-- Estilos para la actividad Button -->
+ 	<style name="detalle">
+ 	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:text">@string/detalle</item> 
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/gray</item>
+ 	</style>
+ 	
+ 	<style name="titulo">
+ 	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+       	<item name="android:layout_alignBottom">@+id/TextView1</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:text">@string/titulo1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/gray</item>
+ 	</style>
+ 	
+ 	<style name="botonActButton">
+ 	    <item name="android:layout_width">@dimen/margin_huge</item>
+        <item name="android:drawableRight">@drawable/tux</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView2</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:text">@string/btn1</item> 
+        <item name="android:textStyle">bold</item>
+ 	</style>
+ 	
+ 	<style name="infoActividad">
+ 	    <item name="android:layout_width">@dimen/margin_huge</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_below">@+id/button1</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:text">@string/info1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+ 	</style>
+ 	
+ <!-- Estilos para la actividad ImageView -->
+ 	<style name="titulo.tituloImageView">
+ 	    <item name="android:text">@string/titulo2</item>
+ 	</style>
+ 	
+ 	<style name="imgActImageView">
+ 	        <item name="android:layout_width">@dimen/margin_medium</item>
+            <item name="android:layout_height">@dimen/margin_medium</item>
+            <item name="android:layout_below">@+id/textView2</item>
+            <item name="android:layout_centerHorizontal">true</item>
+            <item name="android:layout_marginTop">17dp</item>
+            <item name="android:src">@drawable/joker</item>
+ 	</style>
+ 	
+ 	<style name="infoActividad.infoImageView">
+ 	    <item name="android:layout_below">@+id/imageView1</item>
+ 	    <item name="android:text">@string/info2</item>
+ 	</style>
+
+<!-- Estilos para la actividad RadioButton -->
+  	<style name="titulo.tituloRadioButton">
+ 	    <item name="android:text">@string/titulo3</item>
+ 	</style>
+   
+  	<style name="radioActRadioGroup">
+  	        <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_below">@+id/textView1</item>
+            <item name="android:layout_centerHorizontal">true</item>
+  	</style>
+  	
+  	<style name="radioActRadioH">
+  	        <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginTop">50dp</item>
+            <item name="android:checked">false</item>
+            <item name="android:text">@string/H</item>
+            <item name="android:textColor">@color/blue</item>
+            <item name="android:textSize">30sp</item>
+            <item name="android:textStyle">bold</item>
+  	</style>
+  	
+  	<style name="radioActRadioH.radioActRadioM">
+            <item name="android:text">@string/M</item>
+            <item name="android:textColor">@color/red</item>
+  	</style>
+  	
+  	<style name="infoActividad.infoRadioButton">
+ 	    <item name="android:layout_below">@+id/radioSex</item>
+ 	    <item name="android:text">@string/info3</item>
+ 	</style>
+ 	
+ <!-- Estilos para la actividad CheckBox -->
+ 	<style name="titulo.tituloCheckBox">
+ 	    <item name="android:text">@string/titulo4</item>
+ 	</style>
+ 	
+ 	<style name="ActCheckBoxEstudi">
+  	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView2</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:text">@string/opcion1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+ 	</style>
+ 	
+ 	<style name="ActCheckBoxEstudi.ActCheckBoxProfe">
+        <item name="android:layout_below">@+id/checkBox1</item>
+        <item name="android:layout_alignLeft">@+id/checkBox1</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:text">@string/opcion2</item>
+ 	</style>
+ 	
+ 	<style name="infoActividad.infoCheckBox">
+ 	    <item name="android:layout_below">@+id/CheckBox2</item>
+ 	    <item name="android:text">@string/info4</item>
+ 	</style>
+ 	
+ <!-- Estilos para la actividad EditText -->
+ 	<style name="titulo.tituloEditText">
+ 	    <item name="android:text">@string/titulo5</item>
+ 	</style>
+ 	
+ 	<style name="actEditText">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/margin_tiny</item>
+		<item name="android:layout_below">@+id/textView2</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:layout_marginTop">30dp</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:textColor">@color/blue</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:ems">12</item>
+		<item name="android:inputType">text</item>
+		<item name="android:hint">@string/hint</item>
+		<item name="android:scrollbars">vertical</item>
+		<item name="android:scrollbarStyle">insideInset</item>
+		<item name="android:overScrollMode">always</item>
+ 	</style>
+ 	
+ 	<style name="infoActividad.infoEditText">
+ 	    <item name="android:layout_below">@+id/editText1</item>
+ 	    <item name="android:text">@string/info5</item>
+ 	</style>
+ 	 	
+ <!-- Estilos para la actividad Spinner -->
+ 	<style name="titulo.tituloSpinner">
+ 	    <item name="android:text">@string/titulo6</item>
+ 	</style>
+ 	
+ 	<style name="actSpinner">
+ 	        <item name="android:layout_width">@dimen/margin_large</item>
+            <item name="android:layout_height">@dimen/margin_tiny</item>
+            <item name="android:layout_below">@+id/textView2</item>
+            <item name="android:layout_centerHorizontal">true</item>
+            <item name="android:layout_marginTop">30dp</item>
+            <item name="android:prompt">@array/combo</item>
+            <item name="android:spinnerMode">dropdown</item>
+            <item name="android:background">@color/orange</item>
+ 	</style>
+ 	
+ 	<style name="infoActividad.infoSpinner">
+ 	    <item name="android:layout_below">@+id/spinner1</item>
+ 	    <item name="android:text">@string/info6</item>
+ 	</style>
+ 	
+ <!-- Estilos para la actividad TextView -->
+ 	<style name="titulo.tituloTextView">
+ 	    <item name="android:text">@string/titulo7</item>
+ 	</style>
+ 	
+ 	<style name="actTextView">
+  	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/textView2</item>
+        <item name="android:layout_alignRight">@+id/textView2</item>
+        <item name="android:layout_below">@+id/textView2</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:text">@string/info71</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+ 	</style>
+ 	
+ 	<style name="infoActividad.infoTextView">
+ 	    <item name="android:layout_below">@+id/textView4</item>
+ 	    <item name="android:text">@string/info7</item>
+ 	</style>
+ 	 	
+ <!-- Estilos para la actividad ProgressBar -->
+ 	<style name="titulo.tituloProgressBar">
+ 	    <item name="android:text">@string/titulo8</item>
+ 	</style>
+ 	
+ 	<!-- Un componente no puede tener dos estilos.
+ 	Por eso el progressBar tendra su estilo en el layout -->
+ 	
+ 	<style name="infoActividad.infoProgressBar">
+ 	    <item name="android:layout_below">@+id/progressBar1</item>
+ 	    <item name="android:text">@string/info8</item>
+ 	</style>
+ 	
+<!-- Estilos para la actividad ImageButton -->
+ 	<style name="titulo.tituloImageButton">
+ 	    <item name="android:text">@string/titulo9</item>
+ 	</style>
+ 	
+ 	<style name="actImageButton">
+  	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView2</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:src">@drawable/joker</item>
+ 	</style>
+ 	
+ 	<style name="infoActividad.infoImageButton">
+ 	    <item name="android:layout_below">@+id/botonImagen1</item>
+ 	    <item name="android:text">@string/info9</item>
+ 	</style>
+
+</resources>

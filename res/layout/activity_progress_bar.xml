@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="519dp"
+    android:background="@drawable/mechero"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+
+        <TextView
+        android:id="@+id/textView1"
+		style="@style/detalle" />
+
+        <TextView
+            android:id="@+id/textView2"
+			style="@style/titulo.tituloProgressBar" />
+        
+       	<ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="20dp" />
+        
+        <TextView
+            android:id="@+id/textView3"
+ 			style="@style/infoActividad.infoProgressBar" />
+
+
+
+</RelativeLayout>
+</ScrollView>

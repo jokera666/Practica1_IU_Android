@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+        
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tux"
+    tools:context="com.nestor.practica1.MainActivity" >
+	
+        <TextView
+        android:id="@+id/textView1"
+		style="@style/cabeceraMenu" />
+        
+      <Button
+        android:id="@+id/Button1"
+      	style="@style/botonButton" />
+    
+    <Button
+        android:id="@+id/Button2"
+ 		style="@style/botonImageView" />
+
+    <Button
+        android:id="@+id/Button3"
+		style="@style/botonRadioButton" />
+
+    <Button
+        android:id="@+id/Button4"
+		style="@style/botonCheckBox" />
+    
+    <Button
+        android:id="@+id/Button5"
+		style="@style/botonEditText" />
+    
+    <Button
+        android:id="@+id/Button6"
+		style="@style/botonSpinner" />
+    
+    <Button
+        android:id="@+id/Button7"
+		style="@style/botonTextView" />
+    
+    <Button
+        android:id="@+id/Button8"
+		style="@style/botonProgressBar" />
+    
+    <Button
+        android:id="@+id/Button9"
+		style="@style/botonImageButton" />
+
+    <Button
+        android:id="@+id/registro"
+		style="@style/botonRegistro" />
+
+
+
+</RelativeLayout>
+</ScrollView>

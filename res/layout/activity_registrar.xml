@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/ScrollView01"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:scrollbars="none" >
+        
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="519dp"
+	    android:background="@drawable/fondo"
+	    tools:context="com.nestor.practica1.MainActivity" >
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_centerHorizontal="true"
+		    android:text="TextView" />
+
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/textView1"
+		    android:layout_marginTop="60dp"
+		    android:text="TextView" />
+
+		<EditText
+		    android:id="@+id/editText1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/textView2"
+		    android:ems="10" >
+
+		    <requestFocus />
+		</EditText>
+
+		<Spinner
+		    android:id="@+id/spinner1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/textView3"
+		    android:layout_marginTop="20dp" />
+
+		<TextView
+		    android:id="@+id/textView3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/editText1"
+		    android:layout_marginTop="21dp"
+		    android:text="TextView" />
+
+		<CheckBox
+		    android:id="@+id/checkBox1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/spinner1"
+		    android:layout_toRightOf="@+id/textView4"
+		    android:text="CheckBox" />
+
+		<TextView
+		    android:id="@+id/textView4"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBottom="@+id/checkBox1"
+		    android:layout_alignParentLeft="true"
+		    android:text="TextView" />
+
+		<RadioButton
+		    android:id="@+id/radioButton1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/checkBox1"
+		    android:layout_marginTop="18dp"
+		    android:text="RadioButton" />
+
+		<RadioButton
+		    android:id="@+id/radioButton2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/radioButton1"
+		    android:layout_marginTop="14dp"
+		    android:text="RadioButton" />
+
+		<Button
+		    android:id="@+id/button2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/button1"
+		    android:layout_alignBottom="@+id/button1"
+		    android:layout_toRightOf="@+id/editText1"
+		    android:text="Button" />
+
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignRight="@+id/checkBox1"
+		    android:layout_below="@+id/radioButton2"
+		    android:layout_marginTop="28dp"
+		    android:text="Button" />
+
+	</RelativeLayout>
+	    
+</ScrollView>
