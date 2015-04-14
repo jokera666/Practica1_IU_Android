@@ -77,9 +77,22 @@
     <string name="titulo9">LA ACTIVIDAD IMAGEBUTTON</string>
     <string name="info9"> La clase ImageButton de Android nos permite 
        	representar imagenes con funcion de botones que pueden ser pulsados por el usuario 
-        para llevar a cabo alguna acción.</string>
+        para llevar a cabo alguna acción.	</string>
     <string name="descimgbut">Esta imagen es un boton.</string>
+
+    <!-- Cadenas para la actividad Registrar -->
     <string name="title_activity_registrar">Actividad Registrar</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="titulo10">INTRODUCIR DATOS</string>
+    <string name="campo1">Nombre:</string>
+    <string name="campo2">Edad:</string>
+    <string name="campo3">Estudiante:</string>
+    <string name="botEnviar">Enviar</string>
+    <string name="botBorrar">Borrar</string>
+    
+    <!-- Cadenas para la actividad RecibirForm -->
+    <string name="title_activity_recibir_form">Recibir Formulario</string>
+    <string name="tituloExito">Registro realizado con extio.</string>
+    <string name="tituloCasa">Volver a la pagina principal</string>
+    <string name="discCasa">volvera a casa</string>
 
 </resources>

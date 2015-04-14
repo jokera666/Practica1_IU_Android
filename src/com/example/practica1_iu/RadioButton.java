@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class RadioButton extends Activity {
 
@@ -12,8 +15,8 @@ public class RadioButton extends Activity {
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_radio_button);
-		
-/*	radioSexGroup = (RadioGroup) findViewById(R.id.radioSex);
+/*		
+	radioSex = (RadioGroup) findViewById(R.id.radioSex);
 	btnDisplay = (Button) findViewById(R.id.btnDisplay);
  
 	btnDisplay.setOnClickListener(new OnClickListener() {
@@ -22,17 +25,17 @@ public class RadioButton extends Activity {
 		public void onClick(View v) {
  
 		        // get selected radio button from radioGroup
-			int selectedId = radioSexGroup.getCheckedRadioButtonId();
+			int selectedId = radioSex.getCheckedRadioButtonId();
  
 			// find the radiobutton by returned id
 		        radioSexButton = (RadioButton) findViewById(selectedId);
  
-			Toast.makeText(MyAndroidAppActivity.this,
+			Toast.makeText(RadioButton.this,
 				radioSexButton.getText(), Toast.LENGTH_SHORT).show();
  
 		}
  
-	});
-		 * */
+	});*/
+		 
 	}
 }

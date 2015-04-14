@@ -16,11 +16,11 @@
 
         <TextView
         android:id="@+id/textView1"
-		style="@style/detalle" />"
+		style="@style/detalle" />
 
         <TextView
             android:id="@+id/textView2"
-			style="@style/titulo.tituloRadioButton" />"
+			style="@style/titulo.tituloRadioButton" />
 
 
 
@@ -34,12 +34,12 @@
             
             <RadioButton
                 android:id="@+id/radioButton2"
-				style="@style/radioActRadioH.radioActRadioM" />"
+				style="@style/radioActRadioH.radioActRadioM" />
         </RadioGroup>
         
         <TextView
             android:id="@+id/textView3"
-			style="@style/infoActividad.infoRadioButton" />"
+			style="@style/infoActividad.infoRadioButton" />
 
 </RelativeLayout>
 </ScrollView>

@@ -62,6 +62,10 @@
             android:name=".Registrar"
             android:label="@string/title_activity_registrar" >
         </activity>
+        <activity
+            android:name=".RecibirForm"
+            android:label="@string/title_activity_recibir_form" >
+        </activity>
     </application>
 
 </manifest>

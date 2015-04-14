@@ -15,100 +15,59 @@ android:scrollbars="none" >
 
 		<TextView
 		    android:id="@+id/textView1"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignParentTop="true"
-		    android:layout_centerHorizontal="true"
-		    android:text="TextView" />
+			style="@style/tituloReg" />
 
 		<TextView
 		    android:id="@+id/textView2"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignParentLeft="true"
-		    android:layout_below="@+id/textView1"
-		    android:layout_marginTop="60dp"
-		    android:text="TextView" />
+			style="@style/nomCampo1" />
 
 		<EditText
 		    android:id="@+id/editText1"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignParentLeft="true"
-		    android:layout_below="@+id/textView2"
-		    android:ems="10" >
-
-		    <requestFocus />
-		</EditText>
+			style="@style/editTextNombre" />
+		
+		<TextView
+		    android:id="@+id/textView3"
+			style="@style/nomCampo2" />
 
 		<Spinner
 		    android:id="@+id/spinner1"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignParentLeft="true"
-		    android:layout_below="@+id/textView3"
-		    android:layout_marginTop="20dp" />
+			style="@style/comboEdades" />
 
-		<TextView
-		    android:id="@+id/textView3"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignParentLeft="true"
-		    android:layout_below="@+id/editText1"
-		    android:layout_marginTop="21dp"
-		    android:text="TextView" />
-
-		<CheckBox
-		    android:id="@+id/checkBox1"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_below="@+id/spinner1"
-		    android:layout_toRightOf="@+id/textView4"
-		    android:text="CheckBox" />
 
 		<TextView
 		    android:id="@+id/textView4"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignBottom="@+id/checkBox1"
-		    android:layout_alignParentLeft="true"
-		    android:text="TextView" />
+			style="@style/nomCampo3"/>
 
-		<RadioButton
-		    android:id="@+id/radioButton1"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignParentLeft="true"
-		    android:layout_below="@+id/checkBox1"
-		    android:layout_marginTop="18dp"
-		    android:text="RadioButton" />
+		<CheckBox
+		    android:id="@+id/checkBox1"
+			style="@style/checkEstudi" />
 
-		<RadioButton
-		    android:id="@+id/radioButton2"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
+
+
+        
+
+		<RadioGroup
+		    android:id="@+id/radioSex"
+		    style="@style/radioActRadioGroup"
 		    android:layout_alignParentLeft="true"
-		    android:layout_below="@+id/radioButton1"
-		    android:layout_marginTop="14dp"
-		    android:text="RadioButton" />
+		    android:layout_below="@+id/textView4" >
+
+		    <RadioButton
+		        android:id="@+id/radioButton1"
+		        style="@style/radioActRadioH" />
+
+		    <RadioButton
+		        android:id="@+id/radioButton2"
+		        style="@style/radioActRadioH.radioActRadioM" />
+		</RadioGroup>
 
 		<Button
-		    android:id="@+id/button2"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignBaseline="@+id/button1"
-		    android:layout_alignBottom="@+id/button1"
-		    android:layout_toRightOf="@+id/editText1"
-		    android:text="Button" />
+		    android:id="@+id/botonEnviar"
+		    style="@style/btnEnviar" />
 
 		<Button
-		    android:id="@+id/button1"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignRight="@+id/checkBox1"
-		    android:layout_below="@+id/radioButton2"
-		    android:layout_marginTop="28dp"
-		    android:text="Button" />
+		    android:id="@+id/botonBorrar"
+		    style="@style/btnBorrar" />
 
 	</RelativeLayout>
 	    

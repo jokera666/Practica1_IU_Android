@@ -229,11 +229,11 @@
   	<style name="radioActRadioH">
   	        <item name="android:layout_width">wrap_content</item>
             <item name="android:layout_height">wrap_content</item>
-            <item name="android:layout_marginTop">50dp</item>
+            <item name="android:layout_marginTop">20dp</item>
             <item name="android:checked">false</item>
             <item name="android:text">@string/H</item>
             <item name="android:textColor">@color/blue</item>
-            <item name="android:textSize">30sp</item>
+            <item name="android:textSize">20sp</item>
             <item name="android:textStyle">bold</item>
   	</style>
   	
@@ -378,5 +378,157 @@
  	    <item name="android:layout_below">@+id/botonImagen1</item>
  	    <item name="android:text">@string/info9</item>
  	</style>
+ 	
+ 	<!-- Estilos para la actividad Registrar -->
+ 	<style name="tituloReg">
+ 	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:text">@string/titulo10</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/gray</item>
+ 	</style>
+ 	
+ 	<style name="nomCampo1">
+ 	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_below">@+id/textView1</item>
+		<item name="android:layout_marginTop">60dp</item>
+		<item name="android:text">@string/campo1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/gray</item>
+ 	</style>
+ 	
+ 	<style name="editTextNombre">
+ 	    <item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/margin_tiny</item>
+		<item name="android:layout_below">@+id/textView2</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:textColor">@color/blue</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:ems">10</item>
+		<item name="android:inputType">text</item>
+		<item name="android:hint">@string/hint</item>
+		<item name="android:scrollbarStyle">insideInset</item>
+		<item name="android:overScrollMode">always</item>
+ 	</style>
+ 	
+ 	<style name="nomCampo2">
+ 	   	<item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_below">@+id/editText1</item>
+		<item name="android:layout_marginTop">20dp</item>
+		<item name="android:text">@string/campo2</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/gray</item>
+ 	</style>
+ 	
+ 	<style name="comboEdades">
+ 	     	<item name="android:layout_width">@dimen/margin_medium</item>
+            <item name="android:layout_height">@dimen/margin_tiny</item>
+            <item name="android:layout_below">@+id/textView3</item>
+            <item name="android:layout_alignParentLeft">true</item>
+            <item name="android:prompt">@array/comboEdades</item>
+            <item name="android:spinnerMode">dropdown</item>
+            <item name="android:background">@color/orange</item>
+ 	</style>
+ 	
+ 	<style name="nomCampo3">
+ 	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@+id/checkBox1</item>
+ 	    <item name="android:layout_alignParentLeft">true</item>
+ 	    <item name="android:layout_marginTop">20dp</item>
+ 	   	<item name="android:text">@string/campo3</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/gray</item>
+ 	</style>
+ 	
+ 	<style name="checkEstudi">
+ 	   	<item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/spinner1</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_toRightOf">@+id/textView4</item>
+ 	</style>
+ 	
+ 	<style name="btnEnviar">
+ 	   	<item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBaseline">@+id/botonBorrar</item>
+		<item name="android:layout_alignBottom">@+id/botonBorrar</item>
+		<item name="android:layout_toRightOf">@+id/textView4</item>
+		 <item name="android:layout_marginRight">100dp</item>
+		<item name="android:text">@string/botEnviar</item>
+		<item name="android:textColor">@color/blue</item>
+ 	</style>
+ 	
+ 	<style name="btnBorrar">
+ 	   	<item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_below">@+id/radioSex</item>
+        <item name="android:layout_marginLeft">200dp</item>
+		<item name="android:layout_marginTop">36dp</item>
+		<item name="android:text">@string/botBorrar</item>
+		<item name="android:textColor">@color/red</item>
+ 	</style>
+ 	
+ 	 	<!-- Estilos para la actividad RecibirForm -->
+ 	 	
+ 	 	<style name="regExito">
+	 	 	<item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">@dimen/margin_small</item>
+	        <item name="android:layout_alignParentTop">true</item>        
+        	<item name="android:layout_centerHorizontal">true</item>
+        	<item name="android:textSize">30sp</item>
+        	<item name="android:textStyle">bold</item>
+	        <item name="android:textColor">@color/white</item>
+	        <item name="android:background">@color/gray</item>
+	        <item name="android:text">@string/tituloExito</item>
+ 	 	</style>
+ 	 	
+ 	 	<style name="formulario">
+	 	 	<item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">@dimen/margin_small</item>
+	        <item name="android:layout_alignParentLeft">true</item>
+	        <item name="android:layout_marginTop">30dp</item>
+       		<item name="android:layout_below">@+id/textView1</item>
+	        <item name="android:textColor">@color/black</item>
+	        <item name="android:background">@color/yellow</item>
+	        <item name="android:textSize">20sp</item>
+	        <item name="android:textStyle">bold</item>
+ 	 	</style>
+ 	 	
+ 	 	<style name="tituloCasa">
+	 	 	<item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">wrap_content</item>
+	        <item name="android:layout_below">@+id/cadenaRecibida</item>
+        	<item name="android:layout_centerHorizontal">true</item>
+        	<item name="android:layout_marginTop">70dp</item>
+        	<item name="android:textColor">@color/white</item>
+        	<item name="android:textSize">20sp</item>
+        	<item name="android:textStyle">bold</item>
+        	<item name="android:text">@string/tituloCasa</item>
+ 	 	</style>
+ 	 	
+ 	 	<style name="btnCasa">
+ 	        <item name="android:layout_width">@dimen/margin_small</item>
+            <item name="android:layout_height">@dimen/margin_small</item>
+	        <item name="android:layout_below">@+id/textView2</item>
+        	<item name="android:layout_centerHorizontal">true</item>
+        	<item name="android:layout_marginTop">30dp</item>
+        	<item name="android:src">@drawable/casa</item>
+ 	 	</style>
+ 	
 
 </resources>

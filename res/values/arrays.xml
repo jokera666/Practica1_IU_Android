@@ -9,4 +9,12 @@
         <item name="4">Prodigy</item>
     </string-array>
     
+    <string-array name="comboEdades">
+        <item name="0">Seleccionar...</item>
+        <item name="1">10-15</item>
+        <item name="2">16-18</item>
+        <item name="3">19-25</item>
+        <item name="4">26-40</item>
+    </string-array>
+    
 </resources>
