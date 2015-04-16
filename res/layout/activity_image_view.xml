@@ -5,33 +5,33 @@
     android:id="@+id/ScrollView01"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mechero"
     android:scrollbars="none" >
 
 <RelativeLayout 
     android:layout_width="match_parent"
-    android:layout_height="519dp"
-    android:background="@drawable/mechero"
+    android:layout_height="wrap_content"
     tools:context="${relativePackage}.${activityClass}" >
     
 
         <TextView
         android:id="@+id/textView1"
-		style="@style/detalle" />"
+		style="@style/detalle" />
 
         <TextView
             android:id="@+id/textView2"
-			style="@style/titulo.tituloImageView" />"
+			style="@style/titulo.tituloImageView" />
 
 
         <ImageView
             android:id="@+id/imageView1"
 			style="@style/imgActImageView"
-			android:contentDescription="@string/descimg" />"
+			android:contentDescription="@string/descimg" />
         
         
         <TextView
             android:id="@+id/textView3"
-			style="@style/infoActividad.infoImageView" />"
+			style="@style/infoActividad.infoImageView" />
 
 </RelativeLayout>
 </ScrollView>

@@ -11,7 +11,6 @@ android:scrollbars="none" >
 	<RelativeLayout
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
-	    
 	    tools:context="com.nestor.practica1.MainActivity" >
 
 		<TextView
@@ -43,9 +42,6 @@ android:scrollbars="none" >
 		    android:id="@+id/checkBox1"
 			style="@style/checkEstudi" />
 
-
-
-        
 
 		<RadioGroup
 		    android:id="@+id/radioSex"

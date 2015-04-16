@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--
+  <style name="temaPorDefecto" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/cabeceraMenu</item>
+
+    <item name="android:buttonStyle">@style/botonButton</item>
+
+    <item name="android:buttonStyle">@style/botonImageView</item>
+    
+    <item name="android:buttonStyle">@style/botonRadioButton</item>
+    
+    <item name="android:buttonStyle">@style/botonCheckBox</item>
+    
+    <item name="android:buttonStyle">@style/botonEditText</item>
+    
+    <item name="android:buttonStyle">@style/botonSpinner</item>
+    
+    <item name="android:buttonStyle">@style/botonTextView</item>
+    
+    <item name="android:buttonStyle">@style/botonProgressBar</item>
+    
+    <item name="android:buttonStyle">@style/botonImageButton</item>
+    
+    <item name="android:buttonStyle">@style/botonRegistro</item> 
+
+  </style>
+  --> 
+  <!--  
+  <style name="temaVerano" parent="AppBaseTheme">
+
+    <item name="android:windowBackground">@style/fondoTemaVerano</item>   
+	
+  </style>
+	-->
+</resources>

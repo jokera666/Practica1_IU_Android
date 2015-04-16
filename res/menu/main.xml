@@ -2,9 +2,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.practica1_iu.MainActivity" >
 
+  <group android:checkableBehavior="single">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/verano"
         android:orderInCategory="100"
         android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:title="@string/verano"/>
+  	
+  	<item
+        android:id="@+id/primavera"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/primavera"/>
+   	<item
+        android:id="@+id/otono"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/otono"/>
+   	<item
+        android:id="@+id/invierno"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/invierno"/>
+   	
+  	<item
+        android:id="@+id/defecto"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/defecto"/>
+    </group>
 </menu>

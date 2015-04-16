@@ -61,7 +61,6 @@ public final class R {
         public static final int Button9=0x7f0b0012;
         public static final int CheckBox2=0x7f0b0006;
         public static final int ScrollView01=0x7f0b0000;
-        public static final int action_settings=0x7f0b001e;
         public static final int botonBorrar=0x7f0b001d;
         public static final int botonEnviar=0x7f0b001c;
         public static final int botonImagen1=0x7f0b0008;
@@ -69,8 +68,12 @@ public final class R {
         public static final int button1=0x7f0b0003;
         public static final int cadenaRecibida=0x7f0b0018;
         public static final int checkBox1=0x7f0b0005;
+        public static final int defecto=0x7f0b0022;
         public static final int editText1=0x7f0b0007;
         public static final int imageView1=0x7f0b0009;
+        public static final int invierno=0x7f0b0021;
+        public static final int otono=0x7f0b0020;
+        public static final int primavera=0x7f0b001f;
         public static final int progressBar1=0x7f0b0014;
         public static final int radioButton1=0x7f0b0016;
         public static final int radioButton2=0x7f0b0017;
@@ -81,6 +84,7 @@ public final class R {
         public static final int textView2=0x7f0b0002;
         public static final int textView3=0x7f0b0004;
         public static final int textView4=0x7f0b001b;
+        public static final int verano=0x7f0b001e;
     }
     public static final class layout {
         public static final int activity_button=0x7f030000;
@@ -102,9 +106,6 @@ public final class R {
     public static final class string {
         public static final int H=0x7f080019;
         public static final int M=0x7f08001a;
-        /**  Cadenas para el Menu 
-         */
-        public static final int action_settings=0x7f08003d;
         public static final int app_name=0x7f080000;
         public static final int botBorrar=0x7f080038;
         public static final int botEnviar=0x7f080037;
@@ -122,6 +123,7 @@ public final class R {
         public static final int campo1=0x7f080034;
         public static final int campo2=0x7f080035;
         public static final int campo3=0x7f080036;
+        public static final int defecto=0x7f080041;
         public static final int descimg=0x7f080015;
         public static final int descimgbut=0x7f080031;
         public static final int detalle=0x7f08000e;
@@ -137,9 +139,12 @@ public final class R {
         public static final int info71=0x7f08002a;
         public static final int info8=0x7f08002d;
         public static final int info9=0x7f080030;
+        public static final int invierno=0x7f080040;
         public static final int log=0x7f08000c;
         public static final int opcion1=0x7f08001e;
         public static final int opcion2=0x7f08001f;
+        public static final int otono=0x7f08003f;
+        public static final int primavera=0x7f08003e;
         /**  Cadenas para la actividad ButtonActivity 
  Cadenas para la actividad ButtonActivity 
          */
@@ -195,10 +200,13 @@ public final class R {
         public static final int titulo9=0x7f08002f;
         public static final int tituloCasa=0x7f08003b;
         public static final int tituloExito=0x7f08003a;
+        /**  Cadenas para el Menu 
+         */
+        public static final int verano=0x7f08003d;
     }
     public static final class style {
-        public static final int ActCheckBoxEstudi=0x7f09001d;
-        public static final int ActCheckBoxEstudi_ActCheckBoxProfe=0x7f09001e;
+        public static final int ActCheckBoxEstudi=0x7f09001e;
+        public static final int ActCheckBoxEstudi_ActCheckBoxProfe=0x7f09001f;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -225,87 +233,88 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f090001;
-        public static final int Widget=0x7f090002;
-        public static final int Widget_SampleMessage=0x7f090003;
-        public static final int Widget_SampleMessageTile=0x7f090004;
-        public static final int actEditText=0x7f090021;
-        public static final int actImageButton=0x7f09002c;
-        public static final int actSpinner=0x7f090024;
-        public static final int actTextView=0x7f090027;
-        public static final int botonActButton=0x7f090012;
-        public static final int botonButton=0x7f090006;
-        public static final int botonCheckBox=0x7f090009;
-        public static final int botonEditText=0x7f09000a;
-        public static final int botonImageButton=0x7f09000e;
-        public static final int botonImageView=0x7f090007;
-        public static final int botonProgressBar=0x7f09000d;
-        public static final int botonRadioButton=0x7f090008;
-        public static final int botonRegistro=0x7f09000f;
-        public static final int botonSpinner=0x7f09000b;
-        public static final int botonTextView=0x7f09000c;
-        public static final int btnBorrar=0x7f090036;
-        public static final int btnCasa=0x7f09003a;
-        public static final int btnEnviar=0x7f090035;
+        public static final int Widget=0x7f090003;
+        public static final int Widget_SampleMessage=0x7f090004;
+        public static final int Widget_SampleMessageTile=0x7f090005;
+        public static final int actEditText=0x7f090022;
+        public static final int actImageButton=0x7f09002d;
+        public static final int actSpinner=0x7f090025;
+        public static final int actTextView=0x7f090028;
+        public static final int botonActButton=0x7f090013;
+        public static final int botonButton=0x7f090007;
+        public static final int botonCheckBox=0x7f09000a;
+        public static final int botonEditText=0x7f09000b;
+        public static final int botonImageButton=0x7f09000f;
+        public static final int botonImageView=0x7f090008;
+        public static final int botonProgressBar=0x7f09000e;
+        public static final int botonRadioButton=0x7f090009;
+        public static final int botonRegistro=0x7f090010;
+        public static final int botonSpinner=0x7f09000c;
+        public static final int botonTextView=0x7f09000d;
+        public static final int btnBorrar=0x7f090037;
+        public static final int btnCasa=0x7f09003b;
+        public static final int btnEnviar=0x7f090036;
         /**  Estilos para la actividad MainActivity 
          */
-        public static final int cabeceraMenu=0x7f090005;
-        public static final int checkEstudi=0x7f090034;
-        public static final int comboEdades=0x7f090032;
+        public static final int cabeceraMenu=0x7f090006;
+        public static final int checkEstudi=0x7f090035;
+        public static final int comboEdades=0x7f090033;
         /**  Estilos para la actividad Button 
          */
-        public static final int detalle=0x7f090010;
-        public static final int editTextNombre=0x7f090030;
-        public static final int formulario=0x7f090038;
-        public static final int imgActImageView=0x7f090015;
-        public static final int infoActividad=0x7f090013;
-        public static final int infoActividad_infoCheckBox=0x7f09001f;
-        public static final int infoActividad_infoEditText=0x7f090022;
-        public static final int infoActividad_infoImageButton=0x7f09002d;
-        public static final int infoActividad_infoImageView=0x7f090016;
+        public static final int detalle=0x7f090011;
+        public static final int editTextNombre=0x7f090031;
+        public static final int fondoTemaVerano=0x7f090002;
+        public static final int formulario=0x7f090039;
+        public static final int imgActImageView=0x7f090016;
+        public static final int infoActividad=0x7f090014;
+        public static final int infoActividad_infoCheckBox=0x7f090020;
+        public static final int infoActividad_infoEditText=0x7f090023;
+        public static final int infoActividad_infoImageButton=0x7f09002e;
+        public static final int infoActividad_infoImageView=0x7f090017;
         /**  Un componente no puede tener dos estilos.
  	Por eso el progressBar tendra su estilo en el layout 
          */
-        public static final int infoActividad_infoProgressBar=0x7f09002a;
-        public static final int infoActividad_infoRadioButton=0x7f09001b;
-        public static final int infoActividad_infoSpinner=0x7f090025;
-        public static final int infoActividad_infoTextView=0x7f090028;
-        public static final int nomCampo1=0x7f09002f;
-        public static final int nomCampo2=0x7f090031;
-        public static final int nomCampo3=0x7f090033;
-        public static final int radioActRadioGroup=0x7f090018;
-        public static final int radioActRadioH=0x7f090019;
-        public static final int radioActRadioH_radioActRadioM=0x7f09001a;
+        public static final int infoActividad_infoProgressBar=0x7f09002b;
+        public static final int infoActividad_infoRadioButton=0x7f09001c;
+        public static final int infoActividad_infoSpinner=0x7f090026;
+        public static final int infoActividad_infoTextView=0x7f090029;
+        public static final int nomCampo1=0x7f090030;
+        public static final int nomCampo2=0x7f090032;
+        public static final int nomCampo3=0x7f090034;
+        public static final int radioActRadioGroup=0x7f090019;
+        public static final int radioActRadioH=0x7f09001a;
+        public static final int radioActRadioH_radioActRadioM=0x7f09001b;
         /**  Estilos para la actividad RecibirForm 
          */
-        public static final int regExito=0x7f090037;
-        public static final int titulo=0x7f090011;
+        public static final int regExito=0x7f090038;
+        public static final int titulo=0x7f090012;
         /**  Estilos para la actividad CheckBox 
          */
-        public static final int titulo_tituloCheckBox=0x7f09001c;
+        public static final int titulo_tituloCheckBox=0x7f09001d;
         /**  Estilos para la actividad EditText 
          */
-        public static final int titulo_tituloEditText=0x7f090020;
+        public static final int titulo_tituloEditText=0x7f090021;
         /**  Estilos para la actividad ImageButton 
          */
-        public static final int titulo_tituloImageButton=0x7f09002b;
+        public static final int titulo_tituloImageButton=0x7f09002c;
         /**  Estilos para la actividad ImageView 
          */
-        public static final int titulo_tituloImageView=0x7f090014;
+        public static final int titulo_tituloImageView=0x7f090015;
         /**  Estilos para la actividad ProgressBar 
          */
-        public static final int titulo_tituloProgressBar=0x7f090029;
+        public static final int titulo_tituloProgressBar=0x7f09002a;
         /**  Estilos para la actividad RadioButton 
          */
-        public static final int titulo_tituloRadioButton=0x7f090017;
+        public static final int titulo_tituloRadioButton=0x7f090018;
         /**  Estilos para la actividad Spinner 
          */
-        public static final int titulo_tituloSpinner=0x7f090023;
+        public static final int titulo_tituloSpinner=0x7f090024;
         /**  Estilos para la actividad TextView 
          */
-        public static final int titulo_tituloTextView=0x7f090026;
-        public static final int tituloCasa=0x7f090039;
+        public static final int titulo_tituloTextView=0x7f090027;
+        public static final int tituloCasa=0x7f09003a;
         /**  Estilos para la actividad Registrar 
          */
-        public static final int tituloReg=0x7f09002e;
+        public static final int tituloReg=0x7f09002f;
     }
 }

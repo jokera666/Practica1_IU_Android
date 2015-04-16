@@ -5,18 +5,18 @@
     android:id="@+id/ScrollView01"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mechero"
     android:scrollbars="none" >
 
 <RelativeLayout 
     android:layout_width="match_parent"
-    android:layout_height="519dp"
-    android:background="@drawable/mechero"
+    android:layout_height="wrap_content"
     tools:context="${relativePackage}.${activityClass}" >
     
 
         <TextView
         android:id="@+id/textView1"
-		style="@style/detalle" />"
+		style="@style/detalle" />
         
         <TextView
         android:id="@+id/textView2"
@@ -24,7 +24,7 @@
 
         <Spinner
             android:id="@+id/spinner1"
-			style="@style/actSpinner" />"
+			style="@style/actSpinner" />
 
         <TextView
             android:id="@+id/textView3"

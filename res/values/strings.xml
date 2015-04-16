@@ -96,5 +96,9 @@
     <string name="discCasa">volvera a casa</string>
 
     <!-- Cadenas para el Menu -->
-    <string name="action_settings">Configuracion</string>
+    <string name="verano">Verano</string>
+    <string name="primavera">Primavera</string>
+    <string name="otono">Otoño</string>
+    <string name="invierno">Invierno</string>
+    <string name="defecto">Por defecto</string>
 </resources>

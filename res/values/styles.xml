@@ -16,7 +16,11 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    
+     
+    <style name="fondoTemaVerano" parent="AppBaseTheme">
+        <item name="android:background">@color/orange</item>
+    </style>
+   
     <style name="Widget" />
  
     <style name="Widget.SampleMessage">
@@ -32,7 +36,7 @@
     </style>
 
  <!-- Estilos para la actividad MainActivity -->   
-    <style name="cabeceraMenu">
+    <style name="cabeceraMenu" parent="android:Widget.EditText">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentTop">true</item>
