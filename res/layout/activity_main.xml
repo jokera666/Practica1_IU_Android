@@ -5,12 +5,12 @@
     android:id="@+id/ScrollView01"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/tux"
     android:scrollbars="none" >
         
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/tux"
     tools:context="com.nestor.practica1.MainActivity" >
 	
         <TextView

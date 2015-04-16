@@ -95,4 +95,6 @@
     <string name="tituloCasa">Volver a la pagina principal</string>
     <string name="discCasa">volvera a casa</string>
 
+    <!-- Cadenas para el Menu -->
+    <string name="action_settings">Configuracion</string>
 </resources>

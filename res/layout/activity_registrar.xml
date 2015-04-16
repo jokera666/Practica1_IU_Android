@@ -5,12 +5,13 @@ xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/ScrollView01"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+android:background="@drawable/fondo"
 android:scrollbars="none" >
         
 	<RelativeLayout
 	    android:layout_width="match_parent"
-	    android:layout_height="519dp"
-	    android:background="@drawable/fondo"
+	    android:layout_height="wrap_content"
+	    
 	    tools:context="com.nestor.practica1.MainActivity" >
 
 		<TextView
