@@ -1,6 +1,7 @@
 package com.example.practica1_iu;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,9 +16,11 @@ import android.widget.ArrayAdapter;
 import android.widget.RadioGroup;
 import android.widget.RadioButton;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class Registrar extends Activity {
 	
+	// Declaracion de las propiedades de la clase Registrar
 	private EditText nombre;
 	private Button enviar;
 	private Button borrar;
@@ -29,12 +32,16 @@ public class Registrar extends Activity {
 	private String edad;
 	private String sexo;
 	private CheckBox estudiante;
+	private Context contexto;
+	private String mensajeError;
+	private int duracion = Toast.LENGTH_SHORT;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_registrar);
 		
+		//Asignacion de las instancias
 		nombre = (EditText)findViewById(R.id.editText1);
 		
 		//RadioGroup grupoRadio = (RadioGroup)findViewById(R.id.radioSex);
@@ -50,12 +57,12 @@ public class Registrar extends Activity {
 		
 		
 		combo = (Spinner) findViewById(R.id.spinner1);
-		// Create an ArrayAdapter using the string array and a default spinner layout
+		// Crear ArrayAdapter usando un string de array y el spinner layout por defecto
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
 		R.array.comboEdades, android.R.layout.simple_spinner_item);
-		// Specify the layout to use when the list of choices appears
+		//La apariencia del adaptador con las opciones
 		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-		// Apply the adapter to the spinner
+		// Aplicar el addapter al spinner
 		combo.setAdapter(adapter);
 		
 		
@@ -68,8 +75,36 @@ public class Registrar extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-		
+				
 				nombreCadena = nombre.getText().toString();
+				
+				if(nombreCadena.length() == 0){ // comprobacion de error EditText Campo vacio
+					contexto = getApplicationContext();
+		        	mensajeError = "El campo nombre es obligatorio";
+		        	Toast toast = Toast.makeText(contexto, mensajeError,duracion);
+		        	toast.show();
+		        	return; // Detiene la actividad
+				}
+				
+				edad = combo.getSelectedItem().toString();
+				
+				if(combo.getSelectedItemId()==0){ // Comprobacion de error Spinner sin seleccionar opcion
+					contexto = getApplicationContext();
+		        	mensajeError = "Selecciona una edad";
+		        	Toast toast = Toast.makeText(contexto, mensajeError,duracion);
+		        	toast.show();
+		        	return; // Detiene la actividad
+				}
+				
+				if(hombre.isChecked() == false && mujer.isChecked() == false){// Comprobacion de error Radio sin selecionar
+					contexto = getApplicationContext();
+		        	mensajeError = "Selecciona un sexo";
+		        	Toast toast = Toast.makeText(contexto, mensajeError,duracion);
+		        	toast.show();
+		        	return; // Detiene la actividad
+					
+				}
+				
 				
 				if(hombre.isChecked() == true){
 					
@@ -81,12 +116,11 @@ public class Registrar extends Activity {
 					sexo = "mujer";
 				}
 				
-				edad = combo.getSelectedItem().toString();
-				
-				cadenaEnviada = nombreCadena+"es "+sexo+",tiene entre "+edad+" años";
+				// Cadena que concatena los distintos valores en formato String para la otra actividad
+				cadenaEnviada = nombreCadena+" es "+sexo+", tiene entre "+edad+" años";
 				Log.i("CADENA",cadenaEnviada);
                 
-            	//Creamos el Intent
+	          	//Creamos el Intent
             	Intent intent = new Intent(Registrar.this, RecibirForm.class);
             	
             	//Creamos la informacion a pasar entre actividades
@@ -108,10 +142,10 @@ public class Registrar extends Activity {
             	
             	//Iniciamos la nueva actividad
                 startActivity(intent);
-				
 			}
         });
 		
+		// El boton de vaciar el formulario
 		borrar = (Button)this.findViewById(R.id.botonBorrar);
 		borrar.setOnClickListener(new OnClickListener() 
         {
