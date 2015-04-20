@@ -5,8 +5,10 @@
     android:id="@+id/ScrollView01"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/tux"
     android:scrollbars="none" >
+    <!-- Para establecer el background del menu
+    hay que eliminar la etiqueta android:background si 
+    los fondos de pantalla se sobre ponen -->
         
 <RelativeLayout
     android:layout_width="match_parent"

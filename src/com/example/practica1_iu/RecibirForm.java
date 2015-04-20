@@ -23,12 +23,12 @@ public class RecibirForm extends Activity {
         if (bundle!=null)
         {
         	textViewID=(TextView) findViewById(R.id.cadenaRecibida);
-        	//Se obtiene el parametro del bundle y se asigna al control
+        	//Se obtiene el parametro del bundle(Contenedor) y se asigna al control
         	textViewID.setText(bundle.getString("param"));
         }
         
+        //Boton que nos envia a la actividad Main
         botonCasa = (ImageButton)findViewById(R.id.btnCasa);
-        
         botonCasa.setOnClickListener(new View.OnClickListener()
         {
         	@Override

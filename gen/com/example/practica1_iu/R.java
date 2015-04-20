@@ -41,13 +41,18 @@ public final class R {
         public static final int margin_tiny=0x7f070000;
     }
     public static final class drawable {
-        public static final int casa=0x7f020000;
-        public static final int fondo=0x7f020001;
+        public static final int androidjoker=0x7f020000;
+        public static final int casa=0x7f020001;
         public static final int ic_launcher=0x7f020002;
-        public static final int joker=0x7f020003;
-        public static final int mechero=0x7f020004;
-        public static final int registro=0x7f020005;
-        public static final int tux=0x7f020006;
+        public static final int invierno=0x7f020003;
+        public static final int joker=0x7f020004;
+        public static final int mechero=0x7f020005;
+        public static final int metallica=0x7f020006;
+        public static final int otono=0x7f020007;
+        public static final int primavera=0x7f020008;
+        public static final int registro=0x7f020009;
+        public static final int tux=0x7f02000a;
+        public static final int verano=0x7f02000b;
     }
     public static final class id {
         public static final int Button1=0x7f0b000a;
@@ -287,6 +292,11 @@ public final class R {
         /**  Estilos para la actividad RecibirForm 
          */
         public static final int regExito=0x7f090038;
+        public static final int temaInvierno=0x7f090040;
+        public static final int temaOtono=0x7f09003f;
+        public static final int temaPorDefecto=0x7f09003c;
+        public static final int temaPrimavera=0x7f09003d;
+        public static final int temaVerano=0x7f09003e;
         public static final int titulo=0x7f090012;
         /**  Estilos para la actividad CheckBox 
          */

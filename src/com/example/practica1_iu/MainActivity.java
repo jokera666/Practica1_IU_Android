@@ -1,3 +1,11 @@
+/*############################################################################
+# Nombre de la practica: Practica 1: Interfaz de usuario					 #
+# NIE: X-5720766-E                                                           #
+# Realizada por: Nestor Dobrinov Edrev                                       #
+# Curso: 3º Grado de ingenieria informatica en tecnologias de la informacion #
+# Asignatura: DADM - Desarrollo de Aplicaciones para Dispositivos Moviles    #
+# Fecha: 20/04/2015                                                          #
+############################################################################## */
 package com.example.practica1_iu;
 
 
@@ -18,7 +26,7 @@ import android.widget.Toast;
  * Activity*/
 public class MainActivity extends Activity 
 {
-	static int idTema=R.style.AppBaseTheme;	//Tema por defecto
+	static int idTema=R.style.temaPorDefecto;	//Tema por defecto al iniciar la aplicacion
 	
 	/*savedInstanceState: Es un metodo que nos asegura que no se va romper nada
      * si el sistema operativo mata a nuestra aplicacion*/
@@ -181,18 +189,20 @@ public class MainActivity extends Activity
     	// item: es la opcion pulsada
         int id = item.getItemId();
 
-
         if (id == R.id.verano) {
-        	item.setChecked(true);
-			//idTema=R.style.temaVerano;
+        	
+        	//Establecer la el tema 
+			idTema=R.style.temaVerano;
 			
-			//Finalizamos la actividad
+			//Finalizamos la actividad anterior
 			MainActivity.this.finish();	
+			
 			//Lanzamos la actividad con el tema nuevo
 			startActivity(new Intent(MainActivity.this, MainActivity.this.getClass()));
+			//item.setChecked(true); se utiliza en el caso del menu si es de tipo "single"
 			
         	Context contexto = getApplicationContext();
-        	String mensaje = "Esto es verano";
+        	String mensaje = "Tema de verano";
         	int duracion = Toast.LENGTH_SHORT;
         	Toast toast = Toast.makeText(contexto, mensaje,duracion);
         	// para los toast se puede utilizar tambien:
@@ -202,9 +212,19 @@ public class MainActivity extends Activity
         }
         
         if (id == R.id.primavera) {
-        	item.setChecked(true);
+        	
+        	//Establecer la el tema 
+			idTema=R.style.temaPrimavera;
+			
+			//Finalizamos la actividad anterior
+			MainActivity.this.finish();	
+			
+			//Lanzamos la actividad con el tema nuevo
+			startActivity(new Intent(MainActivity.this, MainActivity.this.getClass()));
+			//item.setChecked(true); se utiliza en el caso del menu si es de tipo "single"
+			
         	Context contexto = getApplicationContext();
-        	String mensaje = "Esto es primavera";
+        	String mensaje = "Tema de primavera";
         	int duracion = Toast.LENGTH_SHORT;
         	Toast toast = Toast.makeText(contexto, mensaje,duracion);
         	toast.show();
@@ -212,9 +232,19 @@ public class MainActivity extends Activity
         }
         
         if (id == R.id.otono) {
-        	item.setChecked(true);
+        	
+        	//Establecer la el tema 
+			idTema=R.style.temaOtono;
+			
+			//Finalizamos la actividad anterior
+			MainActivity.this.finish();	
+			
+			//Lanzamos la actividad con el tema nuevo
+			startActivity(new Intent(MainActivity.this, MainActivity.this.getClass()));
+			//item.setChecked(true); se utiliza en el caso del menu si es de tipo "single"
+			
         	Context contexto = getApplicationContext();
-        	String mensaje = "Esto es otoño";
+        	String mensaje = "Tema de otoño";
         	int duracion = Toast.LENGTH_SHORT;
         	Toast toast = Toast.makeText(contexto, mensaje,duracion);
         	toast.show();
@@ -222,9 +252,19 @@ public class MainActivity extends Activity
         }
         
         if (id == R.id.invierno) {
-        	item.setChecked(true);
+        	
+        	//Establecer la el tema 
+			idTema=R.style.temaInvierno;
+			
+			//Finalizamos la actividad anterior
+			MainActivity.this.finish();	
+			
+			//Lanzamos la actividad con el tema nuevo
+			startActivity(new Intent(MainActivity.this, MainActivity.this.getClass()));
+			//item.setChecked(true); se utiliza en el caso del menu si es de tipo "single"
+			
         	Context contexto = getApplicationContext();
-        	String mensaje = "Esto es invierno";
+        	String mensaje = "Tema de invierno";
         	int duracion = Toast.LENGTH_SHORT;
         	Toast toast = Toast.makeText(contexto, mensaje,duracion);
         	toast.show();
@@ -232,7 +272,17 @@ public class MainActivity extends Activity
         }
         
         if (id == R.id.defecto) {
-        	item.setChecked(true);
+        	
+        	//Establecer la el tema 
+			idTema=R.style.temaPorDefecto;
+			
+			//Finalizamos la actividad anterior
+			MainActivity.this.finish();	
+			
+			//Lanzamos la actividad con el tema nuevo
+			startActivity(new Intent(MainActivity.this, MainActivity.this.getClass()));
+			//item.setChecked(true); se utiliza en el caso del menu si es de tipo "single"
+			
         	Context contexto = getApplicationContext();
         	String mensaje = "Por defecto";
         	int duracion = Toast.LENGTH_SHORT;

@@ -3,38 +3,24 @@
 <!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-<!--
-  <style name="temaPorDefecto" parent="android:Theme.Light">
-
-    <item name="android:editTextStyle">@style/cabeceraMenu</item>
-
-    <item name="android:buttonStyle">@style/botonButton</item>
-
-    <item name="android:buttonStyle">@style/botonImageView</item>
     
-    <item name="android:buttonStyle">@style/botonRadioButton</item>
-    
-    <item name="android:buttonStyle">@style/botonCheckBox</item>
-    
-    <item name="android:buttonStyle">@style/botonEditText</item>
-    
-    <item name="android:buttonStyle">@style/botonSpinner</item>
-    
-    <item name="android:buttonStyle">@style/botonTextView</item>
-    
-    <item name="android:buttonStyle">@style/botonProgressBar</item>
-    
-    <item name="android:buttonStyle">@style/botonImageButton</item>
-    
-    <item name="android:buttonStyle">@style/botonRegistro</item> 
-
+  <style name="temaPorDefecto" parent="AppTheme">
+    <item name="android:windowBackground">@drawable/androidjoker</item>
   </style>
-  --> 
-  <!--  
-  <style name="temaVerano" parent="AppBaseTheme">
-
-    <item name="android:windowBackground">@style/fondoTemaVerano</item>   
-	
+  
+  <style name="temaPrimavera" parent="AppTheme">
+    <item name="android:windowBackground">@drawable/primavera</item> 
   </style>
-	-->
+  
+    <style name="temaVerano" parent="AppTheme">
+    	<item name="android:windowBackground">@drawable/verano</item> 
+  	</style>
+  	
+  	<style name="temaOtono" parent="AppTheme">
+    	<item name="android:windowBackground">@drawable/otono</item> 
+  	</style>
+  	
+  	<style name="temaInvierno" parent="AppTheme">
+    	<item name="android:windowBackground">@drawable/invierno</item> 
+  	</style>
 </resources>

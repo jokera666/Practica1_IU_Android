@@ -5,7 +5,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/ScrollView01"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:background="@drawable/fondo"
+android:background="@drawable/verano"
 android:scrollbars="none" >
         
 	<RelativeLayout

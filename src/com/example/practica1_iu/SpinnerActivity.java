@@ -9,19 +9,21 @@ import android.widget.Spinner;
 
 public class SpinnerActivity extends Activity {
 
+	Spinner miSpinner;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_spinner);
 		
-		Spinner spinner = (Spinner) findViewById(R.id.spinner1);
-		// Create an ArrayAdapter using the string array and a default spinner layout
+		miSpinner = (Spinner) findViewById(R.id.spinner1);
+		// Crear ArrayAdapter usando un string de array y el spinner layout por defecto
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-		        R.array.combo, android.R.layout.simple_spinner_item);
-		// Specify the layout to use when the list of choices appears
+		R.array.combo, android.R.layout.simple_spinner_item);
+		//La apariencia del adaptador con las opciones
 		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-		// Apply the adapter to the spinner
-		spinner.setAdapter(adapter);
+		// Aplicar el addapter al spinner
+		miSpinner.setAdapter(adapter);
 	}
 }
