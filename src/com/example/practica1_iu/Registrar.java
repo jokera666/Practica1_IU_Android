@@ -127,13 +127,15 @@ public class Registrar extends Activity {
             	Bundle b = new Bundle();
             	if(estudiante.isChecked())
             	{
-            		cadenaEnviada += " y es estudiante";
-            		b.putString("param",cadenaEnviada);
+            		cadenaEnviada += " y es estudiante.";
+            		// "parametros" es el nombre de la cadena que se envia a RecibirForm
+            		//cadenaEnviada es el contenido de la variable "parametros"
+            		b.putString("parametros",cadenaEnviada); 
             	}
             	
             	else {
-            		cadenaEnviada += " y no es estudiante";
-            		b.putString("param",cadenaEnviada);
+            		cadenaEnviada += " y no es estudiante.";
+            		b.putString("parametros",cadenaEnviada);
             	}
 				
             	

@@ -46,13 +46,14 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
         public static final int invierno=0x7f020003;
         public static final int joker=0x7f020004;
-        public static final int mechero=0x7f020005;
-        public static final int metallica=0x7f020006;
-        public static final int otono=0x7f020007;
-        public static final int primavera=0x7f020008;
-        public static final int registro=0x7f020009;
-        public static final int tux=0x7f02000a;
-        public static final int verano=0x7f02000b;
+        public static final int like=0x7f020005;
+        public static final int mechero=0x7f020006;
+        public static final int metallica=0x7f020007;
+        public static final int otono=0x7f020008;
+        public static final int primavera=0x7f020009;
+        public static final int registro=0x7f02000a;
+        public static final int tux=0x7f02000b;
+        public static final int verano=0x7f02000c;
     }
     public static final class id {
         public static final int Button1=0x7f0b000a;

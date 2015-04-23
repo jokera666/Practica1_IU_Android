@@ -24,7 +24,7 @@ public class RecibirForm extends Activity {
         {
         	textViewID=(TextView) findViewById(R.id.cadenaRecibida);
         	//Se obtiene el parametro del bundle(Contenedor) y se asigna al control
-        	textViewID.setText(bundle.getString("param"));
+        	textViewID.setText(bundle.getString("parametros"));
         }
         
         //Boton que nos envia a la actividad Main

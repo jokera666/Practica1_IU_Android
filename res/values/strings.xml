@@ -91,7 +91,7 @@
     
     <!-- Cadenas para la actividad RecibirForm -->
     <string name="title_activity_recibir_form">Recibir Formulario</string>
-    <string name="tituloExito">Registro realizado con extio.</string>
+    <string name="tituloExito">Registro realizado con exito.</string>
     <string name="tituloCasa">Volver a la pagina principal</string>
     <string name="discCasa">volvera a casa</string>
 

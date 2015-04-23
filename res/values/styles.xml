@@ -496,6 +496,7 @@
         	<item name="android:textStyle">bold</item>
 	        <item name="android:textColor">@color/white</item>
 	        <item name="android:background">@color/gray</item>
+	        <item name="android:drawableRight">@drawable/like</item>
 	        <item name="android:text">@string/tituloExito</item>
  	 	</style>
  	 	
